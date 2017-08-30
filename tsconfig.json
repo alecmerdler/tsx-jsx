@@ -1,19 +1,13 @@
 {
   "compilerOptions": {
-    "module": "es2015",
-    "target": "esnext",
-    "jsx": "react-native",
-    "strictNullChecks": true,
-    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
     "allowJs": true,
-    "lib": [
-      "es5",
-      "es6",
-      "es7",
-      "es2017",
-      "dom"
-    ],
-    "outDir": "dist"
+    "lib": ["dom", "es2015"],
+    "pretty": true,
+    "outDir": "dist",
+    "sourceMap": true
   },
   "include": [
     "**/*.ts",

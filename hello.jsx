@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
 
-export default class Hello extends React.Component {
+export class Hello extends React.Component {
   render() {
     return <div>{this.props.baz}</div>;
   }

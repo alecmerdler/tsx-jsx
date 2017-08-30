@@ -1,14 +1,8 @@
-import React from 'react';
-import Hello from './hello';
+import * as React from 'react';
+import { Hello } from './hello';
 
-class A extends React.Component<void, void> {
-  render() {
-    return (
-      <div>
-        <Hello baz="world">
-          <div></div>
-        </Hello>
-      </div>
-    );
-  }
-}
+export const FooBar = (props) => {
+  return <Hello baz={null}>
+    <div />
+  </Hello>;
+};
