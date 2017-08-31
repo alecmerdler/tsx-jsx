@@ -3,11 +3,10 @@
   "description": "tsx-jsx",
   "version": "1.0.0",
   "scripts": {
-    "dev": "webpack --watch --progress"
+    "dev": "webpack --progress"
   },
   "devDependencies": {
     "@types/react": "15.6.1",
-    "@types/react-dom": "^15.5.4",
     "ts-loader": "^2.3.4",
     "typescript": "2.5.1",
     "webpack": "^3.5.5"

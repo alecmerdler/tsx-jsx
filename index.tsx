@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Hello } from './hello';
 
-export const FooBar = (props) => {
-  return <Hello baz={null}>
-    <div />
-  </Hello>;
+export const FooBar = (props: FooBarProps) => {
+  return <Hello baz={null} />;
 };
+
+export type FooBarProps = {foo: string};
