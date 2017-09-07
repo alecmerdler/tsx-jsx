@@ -19,10 +19,11 @@ const config = {
           {
               test: /(\.jsx?)|(\.tsx?)$/,
               exclude: /node_modules/,
-              loader: 'ts-loader',
-              options: {
-                  entryFileIsJs: /.jsx$/.test(entryFile),
-              }
+              // loader: 'ts-loader',
+              loader: 'awesome-typescript-loader',
+              // options: {
+              //     entryFileIsJs: /.jsx$/.test(entryFile),
+              // }
           },
         ]
     },
