@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Hello } from './hello';
 
 export const FooBar = (props: FooBarProps) => {
-    return <Hello baz={null} />;
+    return <Hello baz={props.foo} />;
 };
 
 export class FizzBuzz extends React.Component<FizzBuzzProps> {
