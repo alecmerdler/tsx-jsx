@@ -1,6 +1,11 @@
-import * as React from 'react';
-import { FooBar } from './index';
+// @ts-check
 
-const App = (props) => {
-  return <FooBar />
-};
+import * as React from 'react';
+import { FooBar, HelloEnhanced } from './index';
+
+/** @type {({version: string}) => JSX.Element} */
+export const App = (props) => (
+  <FooBar>
+    <HelloEnhanced />
+  </FooBar>
+);

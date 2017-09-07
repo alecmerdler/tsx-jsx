@@ -1,19 +1,19 @@
 {
-  "name": "txs-jsx",
-  "description": "tsx-jsx",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "webpack --progress"
-  },
-  "devDependencies": {
-    "@types/react": "15.6.1",
-    "ts-loader": "^2.3.4",
-    "typescript": "2.5.1",
-    "webpack": "^3.5.5"
-  },
-  "dependencies": {
-    "react": "15.6.1",
-    "react-dom": "15.6.1"
-  },
-  "license": "MIT"
+    "name": "txs-jsx",
+    "description": "tsx-jsx",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "webpack --progress"
+    },
+    "devDependencies": {
+        "@types/react": "15.6.1",
+        "ts-loader": "^2.3.4",
+        "typescript": "2.5.1",
+        "webpack": "^3.5.5"
+    },
+    "dependencies": {
+        "react": "15.6.1",
+        "react-dom": "15.6.1"
+    },
+    "license": "MIT"
 }

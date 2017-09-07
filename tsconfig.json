@@ -1,21 +1,21 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "jsx": "react",
-    "allowJs": true,
-    "lib": ["dom", "es2015"],
-    "pretty": true,
-    "outDir": "dist",
-    "sourceMap": true
-  },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.js",
-    "**/*.jsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "lib": ["dom", "es2015"],
+        "pretty": true,
+        "outDir": "dist",
+        "sourceMap": true
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.js",
+        "**/*.jsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }
